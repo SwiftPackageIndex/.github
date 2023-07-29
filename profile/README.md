@@ -4,6 +4,4 @@ Founded in 2020, the project has been open-source since day one and operates tha
 
 We also run a bi-weekly podcast, [Swift Package Indexing](https://swiftpackageindexing.transistor.fm/), where we talk development of this site, plans and updates, and recommend a few packages from around the community in each episode.
 
-The best way to get in touch with us is via [our Discord](https://discord.gg/vQRb6KkYRw).
-
-Finally, we’re also on Mastodon and Twitter. We post information about the project to [@SwiftPackageIndex@mas.to](https://mas.to/@SwiftPackageIndex) and [@SwiftPackages](https://twitter.com/SwiftPackages), and package release notifications to [@SwiftPackageUpdates@mas.to](https://mas.to/@SwiftPackageUpdates) and [@SwiftPkgUpdates](https://twitter.com/SwiftPkgUpdates).
+The best way to get in touch with us is via [our Discord](https://discord.gg/vQRb6KkYRw), but we are also on Mastodon and Twitter. We post information about the project to [@SwiftPackageIndex@mas.to](https://mas.to/@SwiftPackageIndex) and [@SwiftPackages](https://twitter.com/SwiftPackages), and package release notifications to [@SwiftPackageUpdates@mas.to](https://mas.to/@SwiftPackageUpdates) and [@SwiftPkgUpdates](https://twitter.com/SwiftPkgUpdates).
