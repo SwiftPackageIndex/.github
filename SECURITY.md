@@ -1,21 +1,32 @@
-# Security Policies and Procedures
+# Report a security vulnerability
+
+## How to report a security vulnerability
 
 This document outlines security procedures and general policies for the Swift Package Index project.
 
-## Reporting Security Issues with the Project
+Swift Package Index prioritizes the security of its open source projects and values the contributions of the security research community.
+If you believe that you have discovered a security vulnerability in our open source software, please report it to us using the [GitHub private vulnerability feature](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/privately-reporting-a-security-vulnerability).
 
-We take all security bugs in the Swift Package Index project seriously. We appreciate your responsible disclosure efforts and, where appropriate, will acknowledge your contributions.
-
-Please report security bugs via the “[Security](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/security)” tab in the [Server GitHub repository](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server) or directly via the “[Report a Vulnerability](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/security/advisories/new)” form. This will open a private conversation with the Swift Package Index project maintainers.
-
-Once we resolve a security issue, we will publish a security advisory on the GitHub repository’s “Security” tab, where appropriate.
-
-## Reporting Security Issues in Packages in the Index
+This can be done by navigating to the "Security" tab of the specific repository where you found the issue.
 
 If you find a security issue **in a package indexed by the Swift Package Index package**, please report it directly to the package maintainer.
 
 If you believe a package has malicious intent or critical security issues that the maintainer doesn’t address promptly, report it via the “[Security](https://github.com/SwiftPackageIndex/PackageList/security)” tab in the [PackageList GitHub repository](https://github.com/SwiftPackageIndex/PackageList) or directly via the “[Report a Vulnerability](https://github.com/SwiftPackageIndex/PackageList/security)” form. This will open a private conversation with the Swift Package Index project maintainers.
 
-## Comments on this Policy
+Reports should include specific software version(s) that you believe are affected; a technical description of the behavior that you observed and the behavior that you expected; the steps required to reproduce the issue; and a proof of concept or exploit.
 
-Please [open a discussion](https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/discussions/new/choose) if you have suggestions to improve this process.
+## How these reports are handled
+
+Our goal is to confirm all security reports. This is neither an acceptance nor a rejection of the report.
+We may follow up with further questions while working through the details of your report.
+We may prioritize vulnerability remediation, and resolution times may vary according to several factors, such as complexity, severity, and active maintenance of a project.
+
+For the development of secure product and the protection of our users, the project will not disclose or discuss security issues until the investigation is complete and any necessary updates are generally available, unless required by law.
+After updates are made available, reports will be published as GitHub Security Advisories.
+
+Some projects have additional security pages with further details or aggregated findings - consult project specific documentation for details.
+
+## Additional guidelines
+
+Output from automated security scans or fuzzers must include additional context demonstrating the vulnerability with a proof of concept or working exploit.
+Please include enough information to allow us to reproduce the issue. We will credit you in the public advisory if the report is accepted.
